@@ -1,0 +1,11 @@
+body
+{
+    background-image: url(/img/IBV_KEN20interiors_Caretaker20Sonoma20Douglas20\(1\).webp);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: 100% 100%;
+}
+
+/* background-repeat bestämer om bilden ska repeteras och man kan ta bort den med no-repeat
+background-attachment bestämer om backgrunden ska följa med eller inte
+background-size bestämmer storleken  */
