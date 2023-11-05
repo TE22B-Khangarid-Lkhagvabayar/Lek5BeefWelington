@@ -1,6 +1,6 @@
 body
 {
-    background-image: url(/img/IBV_KEN20interiors_Caretaker20Sonoma20Douglas20\(1\).webp);
+    background-image: url(/img/bakgrund.webp);
     background-repeat: no-repeat;
     background-attachment: fixed;
     background-size: 100% 100%;
@@ -9,3 +9,14 @@ body
 /* background-repeat bestämer om bilden ska repeteras och man kan ta bort den med no-repeat
 background-attachment bestämer om backgrunden ska följa med eller inte
 background-size bestämmer storleken  */
+
+.gridbox
+{
+    display: grid;
+    grid-template-rows: 1fr 3fr 3fr 3fr 2fr 1fr ; /*1fr 3fr 3fr 3fr 2fr 1fr; */
+    grid-template-columns:  3fr 2fr 3fr 1fr;
+    height: 100vh;
+}
+
+/* använd vh enhet i rows för att det blir mindre problem*/
+/* sätt en height i css för att kunna använda fractions annars går griden fel */
