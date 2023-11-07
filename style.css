@@ -25,6 +25,8 @@ header
 {
     grid-row: 1 / 1;
     grid-column: 1 / 5;
+    background-color: rgb(173, 173, 173);
+    opacity: 0.6;
 }
 
 .bild1
@@ -37,24 +39,32 @@ header
 {
     grid-row: 2 / 3;
     grid-column: 4 / 5;
+    background-color: rgb(173, 173, 173);
+    opacity: 0.6;
 }
 
 .ingridienser
 {
     grid-row: 3 / 4;
     grid-column: 1 / 5;
+    background-color: rgb(173, 173, 173);
+    opacity: 0.6;
 }
 
 .recept
 {
     grid-row: 4 / 5;
     grid-column: 1 / 5;
+    background-color: rgb(173, 173, 173);
+    opacity: 0.6;
 }
 
 .gordon-ramsey
 {
     grid-row: 5 / 6;
     grid-column: 1 / 2;
+    background-image: url(/img/gordon\ ramsay.webp);
+
 }
 
 .sh
@@ -67,10 +77,13 @@ header
 {
     grid-row: 5 / 6;
     grid-column: 3 / 6 ;
+
 }
 
 footer
 {
     grid-row: 6 / 7;
     grid-column: 1 / 5;
+    background-color: rgb(173, 173, 173);
+    opacity: 0.6;
 }
