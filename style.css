@@ -91,20 +91,42 @@ vatten
 
 
 
-.rrecept
+.recept
 {
     grid-row: 4 / 5;
     grid-column: 5 / 6;
     background-color: rgb(173, 173, 173);
-    opacity: 0.6;
+    opacity: 0.9;
     
 }
+
+/* recept och ogaboga är beroende för varandra
+om recep är bort så beter ogaboga inte som vanligt*/
 
 .ogaboga
 {
     grid-row: 4 / 5;
-    grid-column: 5 / 6;
+    grid-column: 2 / 6;
+    background-color: rgb(173, 173, 173);
+    opacity: 0.9;
+    border-radius: 10%;
+    overflow-x: hidden;
+    overflow-y: auto;
+    text-align: center;
 }
+
+  /*
+
+  overflow-x: hidden;
+  horisontelt 
+  overflow-y: auto;
+  text-align: center;
+
+  auto är från skilnad från overflow:scroll 
+  
+  overflow är för texter som är för långa, och är en grafik.
+
+  */
 
 .gordon-ramsey
 {
